@@ -1,0 +1,30 @@
+Assignment	6	(in	two	parts)
+Part	1
+Write	a	program	in	C	utilizing	the	gnuplot	library		that	performs	the	following	task	
+(in	Linux):
+1) creates	an	X11	plotter	window	on	the	display	screen	of	some	suitable	size	
+(say	750	by	750	pixels)	with	a	black	backround.
+2) Reads	the	data	from	file	/encs_share/cs/class/cs261/planet.dat
+(make	a local	copy for	yourself).
+3) Plots	the	first	5	bodies	listed	in	the	file	at	their	initial	coordinates.		Each	body	
+should	be	plotted	as	a	filled	circle	of	the	color	indicated	in	the	file.		Inflate	the	
+diameter	of	the	planets	such	that	they	are	adequately	visible	on	the	screen.
+4) After	displaying	the	bodies	on	the	screen	for	10	seconds	(see	the	man	page	
+for	sleep())	remove	the	bodies from	the	screen (replot	them	in	black),	
+leaving	the	screen	black.
+Demonstrate	your	program	for	me	in	the	lab	by 5:00PM, Friday,	March	11th.
+
+
+
+Part	2
+Using	Euler’s	method,	simulate	the	motion	of	the	bodies	(at	least	5)	for	10,000	days.		
+You	will	need	to	select	a	suitable	time	increment.		If	you	wish,	you	may	want	to	
+improve	your	numerical	solution	method	by	employing	Huen’s	method,	as	
+described	in	the	slides.
+Repeatedly	plot	the	bodies	at	a	suitable	interval	such	that	their	behavior	is	
+animated.		Plotting	the	bodies	at	a	new	location	will	necessitate	“erasing”	them	from	
+their	previous	position.
+Instrument	your	program	to	detect	how	long	(in	days)	each	body	requires	to	
+complete	one	orbit.			Print	out	the	lengths	of	the	orbits.
+Demonstrate	your	program,	and	provide	a	hard	copy	of	it,	by	the	5:00PM on	Friday,	
+March 25th.
